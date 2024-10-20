@@ -1,0 +1,283 @@
+body{
+    background-color: #131313;
+    color: white; 
+    font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     flex-direction: column;
+     margin: 0;  
+     padding: 0;
+     background-size: cover; 
+     transition: background-image 0.5s ease;
+     padding-bottom: 0px;
+     overflow-y: auto;
+     overflow-x: hidden;
+}
+
+.bgimg{
+width: 100%;
+height: 750px;
+position: relative;
+bottom: 240px;
+}
+
+.bimg{
+    width: 500px;
+    position: relative;
+    top: 160px;
+    left: 370px;
+    z-index: 1;  
+}
+
+.itas{
+    width: 170px;
+    z-index: 1;
+    position: relative;
+    left: 660px;
+    bottom: 20px;
+}
+
+button{
+    background-color: #1B3057;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -30px;
+    margin-left: 1000px;
+    width: 125px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.venhacávenha{
+    font-size: 10vh;
+    color: #113667;
+    position: relative;
+    bottom: 180px;
+}
+
+.aquimeufi{
+    position: relative;
+    bottom: 250px;
+}
+
+body.dark-mode button{
+    border: 2px solid white; 
+    background-color: #be0208;
+    color: white;
+}
+
+body.dark-mode {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+body.dark-mode .card {
+    background:#be0208; 
+    color:#ccc; 
+}
+
+body.dark-mode footer {
+    background:#ccc; 
+    color:#333; 
+}
+
+body.dark-mode ul a {
+    color: #333; 
+    text-decoration: none;
+}
+
+
+body.dark-mode ul a:after {    
+    background: #333;
+  }
+
+
+.titulo{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: -540px; 
+    margin-bottom: 400px;
+    margin-left: 930px;
+    z-index: 1;
+}
+
+
+body.dark-mode .titulo {
+    color: #ffffff; 
+    font-family: 'Arial', sans-serif; 
+}
+
+body.dark-mode .logoinsta{
+    width: 80px;
+    content: url("imagens/Instagram_logop.png");
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    transition: all 400ms;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-bottom: 0px;
+}
+
+.sennamnc{
+position: relative;
+bottom: 1000px;
+z-index: - 1;
+height: 900px;
+background-color: brown;
+}
+
+
+
+.card {
+    flex: 1;    
+    flex-grow: 1;
+    display:flex;
+    height: 350px;
+    flex-direction: column;
+    transition: all 500ms;
+    cursor: pointer;
+    overflow: hidden;
+    background: #1B3057;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-bottom: 0px;
+    max-width: 300px;
+    bottom: 188px;
+}
+
+.card-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover; 
+}
+
+.card-content {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -5%;
+    min-height: 200px;
+}
+
+
+.card:nth-child(odd){
+    transform: translateY(0%);
+}
+
+.container:hover>
+.card:not(:hover){
+filter: grayscale(100%);
+}
+.card:hover{
+    transform: scale(1.1);;
+}
+
+
+
+.content {
+    flex: 1; 
+    flex-grow: 1;
+    padding: 20px; 
+    min-height: 100vh;
+    margin-bottom: 30vh;
+}
+
+
+footer {
+    background-color: #1B3057;
+    width: 210vh; 
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 1500px;
+}
+
+
+ul a {
+    color: #fff;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+  }
+
+ ul a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 9;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+ ul a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.rodapezin{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+footer div{
+display: flex;
+align-items: center;
+align-items: center;
+}
+
+.footer-section {
+    max-width: 1300px;
+}
+
+.logofca{
+    width: 120px;
+    margin-top: 10px;
+}
+
+
+.logoinsta{
+    width: 170px;
+}
